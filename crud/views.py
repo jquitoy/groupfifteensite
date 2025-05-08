@@ -8,4 +8,4 @@ def index(request):
 	return HttpResponse('Hello World!')
 
 def test(request):
-	return HttpResponse('Hello Test!')
+	return render(request, 'layout/base.html')
